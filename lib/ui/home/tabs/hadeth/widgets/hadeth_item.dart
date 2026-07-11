@@ -48,8 +48,8 @@ class _HadethItemState extends State<HadethItem> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Image.asset(AssetsManager.leftCorner),
-                      Image.asset(AssetsManager.rightCorner),
+                      Image.asset(AssetsManager.hadethLeftCorner),
+                      Image.asset(AssetsManager.hadethRightCorner),
                     ],
                   ),
                   Text(myHadeth?.title??"",style: TextStyle(
