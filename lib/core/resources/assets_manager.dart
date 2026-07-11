@@ -8,6 +8,12 @@ abstract class AssetsManager {
   static const String hadethBack = "assets/images/hadeth_back.png";
   static const String hadethMosque = "assets/images/hadeth_mosque.png";
   static const String hadethCardBack = "assets/images/HadithCardBackGround 1.png";
-  static const String leftCorner = "assets/images/left_corner.png";
-  static const String rightCorner = "assets/images/right_corner.png";
+  static const String hadethLeftCorner = "assets/images/left_corner.png";
+  static const String hadethRightCorner = "assets/images/right_corner.png";
+  static const String quranBack = "assets/images/quran_back.png";
+  static const String mostRecentBack = "assets/images/img_most_recent.png";
+  static const String suraNumber = "assets/images/sura_number.svg";
+  static const String leftCorner = "assets/images/img_left_corner.png";
+  static const String rightCorner = "assets/images/img_right_corner.png";
+  static const String suraMosque = "assets/images/sura_mosque.png";
 }
