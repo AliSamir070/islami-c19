@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:islami_c19/core/resources/routes_manager.dart';
+import 'package:islami_c19/ui/hadeth_details/screen/hadeth_details_screen.dart';
 import 'package:islami_c19/ui/home/screen/home_screen.dart';
 import 'package:islami_c19/ui/sura_details/screen/sura_details_screen.dart';
 
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       routes:{
         RoutesManager.homeRouteName:(_)=>HomeScreen(),
+        RoutesManager.hadethDetailsRouteName:(_)=>HadethDetailsScreen(),
         RoutesManager.suraDetailsRouteName:(_)=>SuraDetailsScreen(),
       } ,
       initialRoute: RoutesManager.homeRouteName,
