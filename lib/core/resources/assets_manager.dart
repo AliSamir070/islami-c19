@@ -16,4 +16,9 @@ abstract class AssetsManager {
   static const String leftCorner = "assets/images/img_left_corner.png";
   static const String rightCorner = "assets/images/img_right_corner.png";
   static const String suraMosque = "assets/images/sura_mosque.png";
+  static const String onboardingWelcome = "assets/images/onboarding_welcome.png";
+  static const String onboardingMosque = "assets/images/onboarding_mosque.png"; 
+  static const String onboardingBook = "assets/images/onboarding_book.png";
+  static const String onboardingHands = "assets/images/onboarding_hands.png";
+  static const String onboardingMic = "assets/images/onboarding_mic.png";
 }
