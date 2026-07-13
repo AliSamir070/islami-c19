@@ -67,7 +67,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   height: 0.15 * screenHeight,
                 ),
               ),
-              SizedBox(height: 20),
+              const  SizedBox(height: 20),
               Expanded(
                 child: OnboardingPageView(
                   pageController: pageController,
@@ -79,7 +79,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   },
                 ),
               ),
-              SizedBox(height: 20),
+              const  SizedBox(height: 20),
               Row(
                 children: [
                   if (currentPage > 0)
@@ -92,9 +92,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                           curve: Curves.easeInOut,
                         );
                       },
-                      child: Text(
+                      child:const Text(
                         StringsManager.back,
-                        style: const TextStyle(
+                        style:  TextStyle(
                           color: ColorsManager.goldColor,
                           fontSize: 16,
                           fontWeight: FontWeight.bold,
@@ -124,7 +124,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   ),
                   const Spacer(),
                   InkWell(
-                    overlayColor: WidgetStatePropertyAll(Colors.transparent),
+                    overlayColor:const WidgetStatePropertyAll(Colors.transparent),
                     onTap: () {
                       if (currentPage < pages.length - 1) {
                         pageController.nextPage(

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../../../../core/resources/assets_manager.dart';
 import '../../../../core/resources/colors_manager.dart';
 import '../../../../model/onboarding_model.dart';
 
@@ -26,7 +25,7 @@ class OnboardingPageView extends StatelessWidget {
       },
       itemCount: pages.length,
       itemBuilder: (context, index) {
-        return Column(
+        return  Column(
           children: [
             Image.asset(pages[index].image),
             const SizedBox(height: 20),

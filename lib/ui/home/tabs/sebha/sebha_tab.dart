@@ -47,7 +47,7 @@ class _SebhaTabState extends State<SebhaTab> with TickerProviderStateMixin {
     double screenHeight = MediaQuery.of(context).size.height;
     double screenWidth = MediaQuery.of(context).size.width;
     return Container(
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         image: DecorationImage(
           image: AssetImage(AssetsManager.sebhaBackground),
           fit: BoxFit.cover,
@@ -55,7 +55,7 @@ class _SebhaTabState extends State<SebhaTab> with TickerProviderStateMixin {
       ),
       child: SafeArea(
         child: Padding(
-          padding: .symmetric(horizontal: 16),
+          padding:const .symmetric(horizontal: 16),
           child: Column(
             children: [
               Align(
@@ -66,7 +66,7 @@ class _SebhaTabState extends State<SebhaTab> with TickerProviderStateMixin {
                   height: 0.15 * screenHeight,
                 ),
               ),
-              SizedBox(height: 120),
+              const  SizedBox(height: 120),
 
               InkWell(
                 onTap: onSebhaTap,
