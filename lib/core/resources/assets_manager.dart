@@ -21,4 +21,7 @@ abstract class AssetsManager {
   static const String onboardingBook = "assets/images/onboarding_book.png";
   static const String onboardingHands = "assets/images/onboarding_hands.png";
   static const String onboardingMic = "assets/images/onboarding_mic.png";
+  static const String sebhaBackground = "assets/images/sebha_background.png";
+  static const String sebhaHeader = "assets/images/sebha_header.png";
+  static const String sebhaBody = "assets/images/sebha_body.png";
 }
