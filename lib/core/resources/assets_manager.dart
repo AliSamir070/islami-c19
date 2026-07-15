@@ -21,4 +21,8 @@ abstract class AssetsManager {
   static const String frame3 = "assets/images/frame 3.png";
   static const String frame4 = "assets/images/Frame 4.png";
   static const String frame5 = "assets/images/Frame 5.png";
+  static const String frame33 = "assets/images/Frame 33.png";
+  static const String sebhahead = "assets/images/sebha head .png";
+  static const String sebhabody = "assets/images/SebhaBody 1.png";
+  static const String backgroundsebha = "assets/images/Background sebha .png";
 }

@@ -16,11 +16,11 @@ List<OnboardingModel> onboardingPages = [
   OnboardingModel(
     "Bearish",
     "Praise the name of your Lord, the Most High",
-    AssetsManager.frame3,
+    AssetsManager.frame33,
   ),
   OnboardingModel(
     "Holy Quran Radio",
-    "You can listen to the Holy Quran Radio through the application for free and easily",
+    "You can listen to the Holy Quran Radio \n through the application for free and easily",
     AssetsManager.frame4,
   ),
   OnboardingModel(

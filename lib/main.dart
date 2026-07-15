@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         RoutesManager.suraDetailsRouteName:(_)=>SuraDetailsScreen(),
         RoutesManager.onBoardingRouteName:(_)=>Onboardingscreen(),
       } ,
-      initialRoute: RoutesManager.onBoardingRouteName,
+      initialRoute: RoutesManager.homeRouteName,
     );
   }
 }
