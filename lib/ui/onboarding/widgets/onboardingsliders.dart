@@ -26,11 +26,12 @@ class _OnboardingslidersState extends State<Onboardingsliders> {
               Image.asset(onboardingPages[index].Image),
               Text(onboardingPages[index].title),
               Text(onboardingPages[index].message),
+              Text(onboardingPages[index].message),
 
             ],);
             }
         ),
-          Row(children: [
+           Row(children: [
 
           ],)
         ]
