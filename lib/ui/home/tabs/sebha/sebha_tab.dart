@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:islami_c19/core/resources/assets_manager.dart';
 import 'package:islami_c19/core/resources/colors_manager.dart';

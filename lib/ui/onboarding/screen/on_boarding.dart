@@ -69,30 +69,32 @@ class _OnBoardingState extends State<OnBoarding> {
                     });
                   },
                   itemBuilder: (context, index) {
-                    return Column(
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      mainAxisAlignment: MainAxisAlignment.spaceAround,
-                      children: [
-                        Image.asset(onBoarding[index].image),
-                        Text(
-                          onBoarding[index].text1,
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            color: ColorsManager.goldColor,
-                            fontWeight: FontWeight.w700,
-                            fontSize: 24,
+                    return SingleChildScrollView(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        mainAxisAlignment: MainAxisAlignment.spaceAround,
+                        children: [
+                          Image.asset(onBoarding[index].image),
+                          Text(
+                            onBoarding[index].text1,
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              color: ColorsManager.goldColor,
+                              fontWeight: FontWeight.w700,
+                              fontSize: 24,
+                            ),
                           ),
-                        ),
-                        Text(
-                          onBoarding[index].text2,
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            color: ColorsManager.goldColor,
-                            fontWeight: FontWeight.w700,
-                            fontSize: 20,
+                          Text(
+                            onBoarding[index].text2,
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              color: ColorsManager.goldColor,
+                              fontWeight: FontWeight.w700,
+                              fontSize: 20,
+                            ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     );
                   },
                   itemCount: onBoarding.length,
