@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:islami_c19/core/resources/routes_manager.dart';
 import 'package:islami_c19/ui/hadeth_details/screen/hadeth_details_screen.dart';
 import 'package:islami_c19/ui/home/screen/home_screen.dart';
+import 'package:islami_c19/ui/onboarding/screen/onboardingscreen.dart';
 import 'package:islami_c19/ui/sura_details/screen/sura_details_screen.dart';
 
 void main() {
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
         RoutesManager.homeRouteName:(_)=>HomeScreen(),
         RoutesManager.hadethDetailsRouteName:(_)=>HadethDetailsScreen(),
         RoutesManager.suraDetailsRouteName:(_)=>SuraDetailsScreen(),
+        RoutesManager.onBoardingRouteName:(_)=>Onboardingscreen(),
       } ,
       initialRoute: RoutesManager.homeRouteName,
     );
